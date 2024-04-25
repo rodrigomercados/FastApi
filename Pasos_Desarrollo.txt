@@ -1,0 +1,38 @@
+Carpeta proyecto
+code .
+python -m venv venv
+source venv/bin/activate
+
+
+pip install fastapi uvicorn
+
+crtl+Shift P Seleccionar Python interpreter (seleccionar el del entorno virtual con el que estamos trabjando)
+
+para ejecutar la apllicación se ejecuta uvicorn main:app
+
+
+
+git init
+
+creación de estructura del proyecto
+carpeta app
+carpeta v1
+carpeta model
+carpeta router
+carpeta schema
+carpeta scripts
+carpeta service
+carpeta utils
+archivo.env
+archivo.gitignore
+
+
+pip install python-dotenv
+
+usaremos orm peewee y psycopg2
+
+pip install "pydantic[email]"
+
+passlib es la librería para encriptar contraseña
+pip install "passlib[bcrypt]"
+
